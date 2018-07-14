@@ -31,10 +31,7 @@ public class Main {
                 def(graph[v][i]);
                 System.out.print(v+ " ");
             }
-            
-        }
-        
-        
+        }  
     }
     
     public static void visit(int v){
@@ -49,6 +46,7 @@ public class Main {
         // TODO code application logic here
         
         def(4);
+        System.out.println("");
     }
     
     
